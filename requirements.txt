@@ -1,0 +1,19 @@
+    # FastAPI and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database (still using SQLModel with Postgres under Supabase)
+sqlmodel==0.0.14
+psycopg2-binary==2.9.9
+
+# ML Model
+transformers==4.36.0
+torch==2.1.0
+torchvision==0.16.0
+pillow==10.1.0
+numpy==1.26.2
+
+# Configuration
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
